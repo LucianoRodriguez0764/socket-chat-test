@@ -39,6 +39,8 @@ io.on('connection', (socket) => {
 	console.log(connectedUsers);
 });
 
-server.listen(3000, () => {
-	console.log('Servidor escuchando en puerto 3000');
+
+
+server.listen(process.env.PORT || 3000, () => {
+	console.log('Servidor escuchando en puerto '+(process.env.PORT || 3000));
 });
