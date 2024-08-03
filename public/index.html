@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobby de Conexión</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="lobby">
+    <h1>Ingrese su nombre</h1>
+    <input type="text" id="usernameInput" placeholder="Nombre">
+    <button id="connectButton">Conectar</button>
+  </div>
+  <div id="connected">
+    <h1>Usuarios Conectados</h1>
+    <ul id="userList"></ul>
+  </div>
+  <div id="chat">
+    <h1>Chat</h1>
+    <textarea placeholder="Write a message..." id="textMessage" class="text-area"></textarea><br>
+	<button id="sendMessageButton">Send</button>
+    <ul id="chatList"></ul>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

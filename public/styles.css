@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  background-color: #f4f4f4;
+  margin-bottom: 5px;
+}
+
+#disconnectButton{
+	margin-left: 5px;
+}
+.text-area {
+	width: 300px;
+	min-width: 300px;
+	max-width: 600px;
+	height: 45px;
+	min-height: 15px;
+	max-height: 200px;
+	resize: both;
+}
+.message-div{
+	margin-left: 40%;
+}
