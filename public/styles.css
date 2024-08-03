@@ -34,3 +34,8 @@ li {
 .message-div{
 	margin-left: 40%;
 }
+@media (max-width: 769px) {
+    .message-div {
+        margin-left: 0%;
+    }
+}
